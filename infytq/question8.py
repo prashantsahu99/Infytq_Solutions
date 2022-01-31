@@ -45,4 +45,3 @@ if __name__ == '__main__':
                 print(even[i], end='')
             elif flag == 2:
                 print(odd[i], end='')
-
