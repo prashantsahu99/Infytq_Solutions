@@ -8,7 +8,7 @@
 # Here the subarrays |2,3,5,8],[3,8,11],[5,7,12,19] Expected is [2,3,5,8]
 
 if __name__ == '__main__':
-    list1 = [int(x) for x in input().split()]
+    list1 = [int(x) for x in input().split(",")]
     list2 = []
     list1.sort()
     list2.append(list1[0])
