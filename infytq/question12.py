@@ -20,7 +20,7 @@ if __name__ == '__main__':
     for i in range(m):
         list2 = [int(x) for x in input().split()]
         list1.append(list2)
-        result = []
+    result = []
     # column
     for i in range(m):
         for j in range(n-2):
@@ -37,4 +37,3 @@ if __name__ == '__main__':
             if list1[i][j] == list1[i-1][j-1] == list1[i-2][j-2]:
                 result.append(list1[i][j])
     print(min(result))
-
