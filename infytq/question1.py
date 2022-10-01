@@ -27,3 +27,4 @@ if __name__ == '__main__':
     print(num1)
     print(num2)
     print(num2+num1)
+    print(num1-num2)
